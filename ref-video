@@ -1,2 +1,35 @@
 https://www.youtube.com/watch?v=a6W1hF9CgDQ
 https://www.youtube.com/watch?v=XLnzCElgE9U&t=307s
+
+command
+--------
+1. vagrant
+--> It will list all the vagrant command and options
+2. vagrant status
+--> it will give weather it is running
+3. vagrant global-status
+ --> It will give full list, all the machines
+4. vagrant global-status --prune
+-->It will delete invalid entries
+5. vagrant ssh-config
+-->ssh configuration details
+Open mobxterm --> ssh --> IP(for example 127.0.0.1 username-vagrant port-2222
+password - vagrant
+6. vagrant reload
+--> restart the virtual mahine
+7. vagrant destroy
+--> To delete the vagrant VM
+8 vagrant validate
+vagrant status
+
+vagrant up --provision
+vagrant halt  --> will stop your vagrant instance. There's no way to save the state of a vagrant instance, so you may need to halt instead, but any changes you make will be saved.
+vagrant suspend
+vagrant destroy -f
+
+vagrant resume [name|id] -- resume after suspend
+
+Multiple VM
+--> copy and 
+
+
