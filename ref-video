@@ -43,6 +43,8 @@ vgrant init --> it will create VM
 to stop --> vagrant halt
 to start --> vagant start
 to create new vagrant vm --> vagant init
+--------------------------------------
+
 
 
 
