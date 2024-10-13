@@ -31,5 +31,18 @@ vagrant resume [name|id] -- resume after suspend
 
 Multiple VM
 --> copy and 
+--------------------------------------------------------------------------
+-->to get availibale vagrant box
+vagrant box list
+--> to remove exiting vagrant box
+vagrant box remove <boxname>
+--> vagrant box add in the list of exiting 
+vagrant box add bento/oracle-7.6 --provider virtualbox
+---------------------------------------------------------------------------
+vgrant init --> it will create VM
+to stop --> vagrant halt
+to start --> vagant start
+
+
 
 
